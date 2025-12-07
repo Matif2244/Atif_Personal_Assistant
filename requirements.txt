@@ -1,0 +1,7 @@
+playwright
+google-generativeai
+python-dotenv
+pyautogui
+uiautomation
+python-telegram-bot
+firebase-admin

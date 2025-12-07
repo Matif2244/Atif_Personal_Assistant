@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: atif-assistant-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python cloud_bot.py
+    plan: free
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TELEGRAM_TOKEN
+        sync: false

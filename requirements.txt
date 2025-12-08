@@ -1,7 +1,6 @@
-playwright
-google-generativeai
-python-dotenv
-pyautogui
-uiautomation
 python-telegram-bot
 firebase-admin
+google-generativeai
+python-dotenv
+flask
+gunicorn
